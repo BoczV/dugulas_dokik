@@ -1,22 +1,38 @@
 import React from 'react';
+import '../style/Navbar.css'
 
 
 function Navbar() {
     return (
-        <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <h4 class="text-white">Collapsed content</h4>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-          </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
-    )
+      <div className="header">
+      <p className="home" href="/" id="logo">
+        Dugulásdokik
+      </p>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Főoldal</a>
+          </li>
+          <li>
+            <a href="/">Körzetek, ahova kijárunk</a>
+          </li>
+          <li>
+            <a href="/">Időpontfoglalás</a>
+          </li>
+          <li>
+            <a href="/">SOS elhárítás</a>
+          </li>
+          <li>
+            <a href="/">Dokik</a>
+          </li>
+          <li>
+            <a href="/">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    );
 }
 
 export default Navbar
