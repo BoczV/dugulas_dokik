@@ -27,7 +27,7 @@ function Navbar() {
             <a href="/">Dokik</a>
           </li>
           <li>
-            <a href="/">Kontakt</a>
+            <a href="/contact">Kontakt</a>
           </li>
         </ul>
       </nav>
